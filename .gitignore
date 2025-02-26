@@ -300,13 +300,5 @@ TSWLatexianTemp*
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
 
-resume.pdf
-
-# ignore all file in thesis/appendix/tla except .tla file
-thesis/appendix/tla/*
-!thesis/appendix/tla/*.tla
-
-# ignore all file in thesis/appendix/plantuml except .puml file
-thesis/appendix/plantuml/*
-!thesis/appendix/plantuml/*.puml
+# resume.pdf
 
