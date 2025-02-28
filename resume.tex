@@ -17,7 +17,7 @@
 \sepspace
 \SimpleEntry{政治面貌：共产党员}
 \SimpleEntry{Tel: 15371939295}
-\SimpleEntry{\href{mailto:zhangjihu0327@outlook.com}{个人邮箱：zhangjihu0327@outlook.com}}
+\SimpleEntry{\href{mailto:zhangjihua0327@outlook.com}{个人邮箱：zhangjihua0327@outlook.com}}
 \SimpleEntry{\href{https://lollipopzzz.cn}{个人主页：https://lollipopzzz.cn}}
 \SimpleEntry{开朗，乐观积极，外向性格，乐于社交}
 \yourphoto{0.14}
@@ -38,7 +38,11 @@
 \datedsubsection{\textbf{小米互联网业务部(南京)}，后端开发工程师}{2023.6 - 2023.10}
 \Content
 {{游戏媒体后端开发}}
-{{\\本人主要负责游戏媒体社区项目和 app-store 在线商城的日常维护和开发工作。}{\\在实习前期在熟悉项目代码的同时进行日常维护和debug工作。}{\\在实习后期，完成一个日常需求(对于 toB 业务配置项的移库工作)和一个大版本下的完整需求点(帖子推荐接口，需要允许使用推荐排序和提供将来接入推荐算法;引入缓存，提高访问策略)。}}
+{
+    {\\本人主要负责游戏媒体社区项目和 app-store 在线商城的日常维护和开发工作。}
+    {\\在实习前期在熟悉项目代码的同时进行日常维护和debug工作。}
+    {\\在实习后期，完成一个日常需求(对于 toB 业务配置项的移库工作)和一个大版本下的完整需求点(帖子推荐接口，需要允许使用推荐排序和提供将来接入推荐算法;引入缓存，提高访问效率)。}
+    }
 \sepspace
 
 \section{实践项目}
@@ -47,12 +51,21 @@
 {服务于校内软件学院本研学生，主要功能在于学生实习信息的确认和统计，学生就业情况统计。}
 {主要负责网络拓扑设计、运维、项目管理和后端开发。主要难点在于需要与信息部门对接，接入学校统一身份认证系统；需要将所有信息和服务运行在同一台校内服务器上，保证数据安全。\\使用docker将每个服务作为容器管理，使用成熟开源容器作为数据和对象存储；使用gitlab-runner进行CI-CD。 }
 
-\datedsubsection{\textbf{SysY 语言解析器}，编译原理课程作业}{2022.10 - 2022.12}
+% \datedsubsection{\textbf{SysY 语言解析器}，编译原理课程作业}{2022.10 - 2022.12}
+% \Contents
+% {使用Java、Antlr4、LLVM(JAVACPP)，对 SysY 语言程序开发一个实现绝大多数功能的的编译器(从源码到LLVM中间代码)，包括此法、语法、语义分析和中间代码生成。对计算机语言的编译过程有了初步的了解，Linux环境下的程序编程、Linux使用技巧的初步了解。}
+% {\begin{itemize}
+%     \item 借助Anltr4编写词法和语法规则，实现词法和语法的分析器，构建抽象语法树和字符表;
+%     \item 解析字符表和抽象语法树，构建字母表，生成LLVM中间代码;
+% \end{itemize} }
+
+\datedsubsection{\textbf{tai-e 静态程序分析器}，软件静态分析课程作业}{2022.10 - 2022.12}
 \Contents
-{使用Java、Antlr4、LLVM(JAVACPP)，对 SysY 语言程序开发一个实现绝大多数功能的的编译器(从源码到LLVM中间代码)，包括此法、语法、语义分析和中间代码生成。对计算机语言的编译过程有了初步的了解，Linux环境下的程序编程、Linux使用技巧的初步了解。}
+{使用Java、Soot，对Java程序进行静态分析，实现一个简单的静态程序分析器，用于完成对Java代码的活跃变量分析，死代码分析，常量传播分析，上下文敏感和不敏感的指针分析，和污点分析等。}
 {\begin{itemize}
-    \item 借助Anltr4编写词法和语法规则，实现词法和语法的分析器，构建抽象语法树和字符表;
-    \item 解析字符表和抽象语法树，构建字母表，生成LLVM中间代码;
+    \item 使用Soot框架对Java程序进行静态分析，生成三地址中间代码(IR);
+    \item 对三地址中间代码进行分析，生成程序的控制流图和数据流图;
+    \item 对控制流图和数据流图进行分析，生成程序的静态分析结果。
 \end{itemize} }
 \sepspace
 
