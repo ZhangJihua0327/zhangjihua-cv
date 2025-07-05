@@ -99,7 +99,7 @@
 }
 
 \newcommand{\yourphoto}[1]{
-  \hfill \smash{\includegraphics[width={#1}\paperwidth]{images/me.png}}
+  \hfill \smash{\includegraphics[width={#1}\paperwidth]{images/me4.jpg}}
 }
 
 \newcommand{\role}[2]{
